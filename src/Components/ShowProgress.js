@@ -12,7 +12,7 @@ const ShowProgress = () => {
       ) : null}
       {completed === tasks.length && completed !== 0 ? (
         <span className="completed__text">
-          Hurray!!! you have completed all the tasks <span role="img">🥇🎉</span>
+          Hurray!!! you have completed all the tasks <span role="img" aria-label="trophies">🥇🎉</span>
         </span>
       ) : null}
     </div>
