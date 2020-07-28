@@ -41,6 +41,7 @@ const TaskForm = () => {
         </button>
         <button
           className="btn clear-btn"
+          type="button"
           onClick={() => {
             clearList();
           }}
